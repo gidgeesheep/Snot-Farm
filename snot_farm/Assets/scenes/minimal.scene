@@ -138,8 +138,8 @@
           "__type": "Sandbox.Tonemapping",
           "__guid": "060b07c0-344c-4b37-8b86-758d3cddae7c",
           "ExposureCompensation": 0,
-          "MaximumExposure": 2,
-          "MinimumExposure": 1,
+          "MaximumExposure": 2.27,
+          "MinimumExposure": 0,
           "Rate": 1
         },
         {
@@ -153,6 +153,8 @@
       "__guid": "79e083ff-1630-4282-9e6d-3ca7a33f4b90",
       "Name": "Cube",
       "Position": "3.865406,8.686703,155.963",
+      "Rotation": "0,0,0.258819,0.9659258",
+      "Scale": "3.448143,1,1",
       "Enabled": true,
       "NetworkMode": 2,
       "Components": [
@@ -189,7 +191,9 @@
     {
       "__guid": "9bf8855f-c124-4d4e-8ed4-4f78ea5bdc4c",
       "Name": "Cube (1)",
-      "Position": "0.5024738,8.686703,293.9941",
+      "Position": "-58.02318,106.9766,329.2107",
+      "Rotation": "0,-0.258819,0,0.9659258",
+      "Scale": "5.604976,1,1",
       "Enabled": true,
       "NetworkMode": 2,
       "Components": [
@@ -226,7 +230,7 @@
     {
       "__guid": "1cf8d9dd-3301-41b7-a50f-60da1435aeb6",
       "Name": "Cube (2)",
-      "Position": "22.83317,-16.45198,232.1491",
+      "Position": "37.51738,-58.88959,252.7374",
       "Enabled": true,
       "NetworkMode": 2,
       "Components": [
@@ -284,7 +288,7 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-04-27T11:48:41.7038937-04:00",
+  "LastSaved": "2024-04-27T12:01:49.771726-04:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": []
