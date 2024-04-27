@@ -68,7 +68,7 @@
           "MaterialOverride": "materials/default.vmat",
           "Model": "models/dev/plane.vmdl",
           "RenderType": "On",
-          "Tint": "0.39546,0.51163,0.27128,1"
+          "Tint": "0.56561,0.86512,0.24545,1"
         },
         {
           "__type": "Sandbox.BoxCollider",
@@ -83,8 +83,8 @@
     {
       "__guid": "3ee1c9f4-07be-4e0b-8b23-67bee2d8ec8a",
       "Name": "Camera",
-      "Position": "-267.452,-379.653,297.7903",
-      "Rotation": "-0.1448582,0.2860239,0.4279631,0.8450171",
+      "Position": "-284.0551,-402.272,261.0915",
+      "Rotation": "-0.08775857,0.1732801,0.4432097,0.8751215",
       "Enabled": true,
       "NetworkMode": 2,
       "Components": [
@@ -148,6 +148,117 @@
           "Scale": 0.2
         }
       ]
+    },
+    {
+      "__guid": "79e083ff-1630-4282-9e6d-3ca7a33f4b90",
+      "Name": "Cube",
+      "Position": "3.865406,8.686703,155.963",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "adf86c72-6ef7-4913-a065-c9215302a55a",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0,0.34326,0.76279,1"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "73b45c99-ffba-4ab8-9eaa-c105aed9f73d",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "960da3d7-f3b6-45c4-b520-9db673572e01",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
+      "__guid": "9bf8855f-c124-4d4e-8ed4-4f78ea5bdc4c",
+      "Name": "Cube (1)",
+      "Position": "0.5024738,8.686703,293.9941",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "52ed6185-bad5-45b9-a0ff-b8c42cd558f8",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0,0.34326,0.76279,1"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "806ca1c6-f71b-4e1d-aa0c-370992b9a617",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "d545f704-cd84-447c-b24f-f1855fca8ab3",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
+      "__guid": "1cf8d9dd-3301-41b7-a50f-60da1435aeb6",
+      "Name": "Cube (2)",
+      "Position": "22.83317,-16.45198,232.1491",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "1044c5f9-f31b-496d-a29d-2680b01bfaac",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0,0.34326,0.76279,1"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "41e6692b-443e-4b33-b0a9-798cdc686bdd",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "a6a11751-0811-4166-84b5-833c9d1e6493",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -173,7 +284,7 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-04-27T11:31:50.0601618-04:00",
+  "LastSaved": "2024-04-27T11:48:41.7038937-04:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": []
