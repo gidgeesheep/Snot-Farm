@@ -57,7 +57,7 @@
     {
       "__guid": "6ad70641-3c6c-4402-9c85-9a4969af4764",
       "Name": "Plane",
-      "Scale": "5,5,5",
+      "Scale": "20,20,5",
       "Enabled": true,
       "NetworkMode": 2,
       "Components": [
@@ -77,126 +77,6 @@
           "IsTrigger": false,
           "Scale": "100,100,10",
           "Static": false
-        }
-      ]
-    },
-    {
-      "__guid": "3c2490ef-54a0-49bb-8f13-490e40aa51d1",
-      "Name": "Cube",
-      "Position": "12.8889,21.94878,135.8763",
-      "Rotation": "0.00000001803764,-0.0000000023747,0.4269184,0.9042904",
-      "Scale": "0.5632889,0.5632889,0.5632889",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "db945ae1-337c-4b27-a16c-0b4a18664176",
-          "BodyGroups": 18446744073709551615,
-          "MaterialOverride": "materials/default.vmat",
-          "Model": "models/dev/box.vmdl",
-          "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
-        },
-        {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "0f346d7d-ff04-41ea-a5e6-8d591bab93fd",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "50,50,50",
-          "Static": false
-        },
-        {
-          "__type": "Sandbox.Rigidbody",
-          "__guid": "20ff7cc5-3a8e-40b2-a710-73f06baeb70e",
-          "AngularDamping": 0,
-          "Gravity": true,
-          "LinearDamping": 0,
-          "Locking": {},
-          "MassOverride": 0,
-          "MotionEnabled": true,
-          "RigidbodyFlags": 0,
-          "StartAsleep": false
-        }
-      ]
-    },
-    {
-      "__guid": "523e3e8f-a4ec-4ec1-af9a-d86ffc9c17e1",
-      "Name": "Cube (1)",
-      "Position": "40.81347,46.97573,27.77895",
-      "Rotation": "0.00000001819328,-0.00000000000000008235059,0.3052325,0.952278",
-      "Scale": "1.122918,1.172813,1.122918",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "c54f9735-2f5a-4d93-9276-b00727622468",
-          "BodyGroups": 18446744073709551615,
-          "MaterialOverride": "materials/default.vmat",
-          "Model": "models/dev/box.vmdl",
-          "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
-        },
-        {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "aeabb7be-21ba-46b9-bb79-5665fff57386",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "50,50,50",
-          "Static": false
-        },
-        {
-          "__type": "Sandbox.Rigidbody",
-          "__guid": "b7098146-c991-4936-b123-dd01ffd77a66",
-          "AngularDamping": 0,
-          "Gravity": true,
-          "LinearDamping": 0,
-          "Locking": {},
-          "MassOverride": 0,
-          "MotionEnabled": true,
-          "RigidbodyFlags": 0,
-          "StartAsleep": false
-        }
-      ]
-    },
-    {
-      "__guid": "5b483a09-bbf2-4949-98c7-a73b789d0ee7",
-      "Name": "Cube (2)",
-      "Position": "-54.66592,23.54127,146.1062",
-      "Rotation": "0.06155785,0.1653917,0.3649266,0.914158",
-      "Scale": "0.5632889,0.5632889,0.5632889",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "05b89dca-3291-4c44-964d-1ea087882eee",
-          "BodyGroups": 18446744073709551615,
-          "MaterialOverride": "materials/default.vmat",
-          "Model": "models/dev/box.vmdl",
-          "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
-        },
-        {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "af10bbb1-09f6-4e5b-bfff-e2e7c9288dd0",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "50,50,50",
-          "Static": false
-        },
-        {
-          "__type": "Sandbox.Rigidbody",
-          "__guid": "006cda24-17c3-42b0-958d-a55c42dc7e0f",
-          "AngularDamping": 0,
-          "Gravity": true,
-          "LinearDamping": 0,
-          "Locking": {},
-          "MassOverride": 0,
-          "MotionEnabled": true,
-          "RigidbodyFlags": 0,
-          "StartAsleep": false
         }
       ]
     },
@@ -293,7 +173,7 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-04-26T15:58:28.3858411-04:00",
+  "LastSaved": "2024-04-27T11:31:50.0601618-04:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": []
