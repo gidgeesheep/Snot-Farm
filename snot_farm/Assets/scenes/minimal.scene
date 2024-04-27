@@ -389,7 +389,7 @@
     },
     {
       "__guid": "6796460d-f70e-4c64-8022-9b36b9d48498",
-      "Name": "Hay Bale",
+      "Name": "untitled_109",
       "Position": "378.7071,-738.5609,0",
       "Enabled": true,
       "NetworkMode": 2,
@@ -406,7 +406,7 @@
     },
     {
       "__guid": "68f6a480-e789-4a0b-abc1-0c6276a6b084",
-      "Name": "Hay Bale 2",
+      "Name": "untitled_109 (1)",
       "Position": "460.473,-725.7551,0",
       "Rotation": "0,0,0.1305262,0.9914449",
       "Enabled": true,
@@ -559,7 +559,7 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-04-27T14:20:40.9479084-04:00",
+  "LastSaved": "2024-04-27T14:18:37.3315525-04:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": [
